@@ -30,6 +30,7 @@ p{
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     align-items: center;
     justify-content: center;
@@ -49,3 +50,6 @@ main ul li a:hover{
 background-color: #C06C84;
 color: #a8c0ff;
 }
+
+
+

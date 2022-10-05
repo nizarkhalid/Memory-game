@@ -37,6 +37,31 @@ body {
     perspective: 1000px;
 }
 
+@media (max-width:768px) {
+    .con{
+    width: 550px;
+    height: 550px;
+    gap: 0px;
+    }
+    #mute{
+        right: 50px;
+        top: 5px;
+        height: 45px;
+    }
+}
+/* medias for responsiveeness */
+@media (min-width:768px) {
+    .con{
+    width: 550px;
+    height: 550px;
+    }
+    #mute{
+        right: 300px;
+        top: 10px;
+        height: 45px;
+    }
+}
+
 .card{
     width: 12.5%;
     height: calc(33.333% - 85px);
